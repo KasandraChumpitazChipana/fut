@@ -12,7 +12,7 @@ import reactor.core.publisher.Mono;
 
 @Slf4j
 @RestController
-@RequestMapping("/fut/requests")
+@RequestMapping("/api/v1/fut")
 @RequiredArgsConstructor
 public class FutRequestRest {
 
