@@ -13,6 +13,7 @@ import reactor.core.publisher.Mono;
 @Slf4j
 @RestController
 @RequestMapping("/api/v1/fut")
+@CrossOrigin(origins = "*")  
 @RequiredArgsConstructor
 public class FutRequestRest {
 
